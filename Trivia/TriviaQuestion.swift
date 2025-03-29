@@ -8,8 +8,9 @@
 import Foundation
 
 struct TriviaQuestion {
-  let category: String
-  let question: String
-  let correctAnswer: String
-  let incorrectAnswers: [String]
+    let category: String
+    let type: String
+    let question: String
+    let correctAnswer: String
+    let incorrectAnswers: [String]
 }
